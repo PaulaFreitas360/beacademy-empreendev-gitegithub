@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Títulos e Parágrafos</title>
+</head>
+<body style="background-color: blueviolet;color: white;">
+    <h1>Título</h1>
+    <h2>teste</h2>
+    <h3>teste</h3>
+    <h4>teste</h4>
+    <h5>teste</h5>
+    <h6>teste</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Praesentium nesciunt totam enim, ut odio doloribus similique ea suscipit quos veniam aperiam officiis delectus dolorem voluptate!<br> Consequuntur ipsum quam temporibus ad?</p>
+
+    <strong>Importante!</strong>
+    <hr>
+    <em>Estou em italico(citações)</em>
+    hr
+    <b>Texto forte(sem semantica)</b>
+    <hr>
+    <i>Negrito(nao e semantico(armazena icones ou svg)</i>
+    <br>
+    <cite>Fazer uma citacao é melhor para rankeamento</cite>
+</body>
+</html>
