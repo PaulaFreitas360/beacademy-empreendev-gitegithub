@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body style="background-color: blueviolet;color: white;font-size: 24px;">
+    <!-- <table>
+        <caption>
+            tabela de professores
+        </caption>
+        <thead>
+            <tr>
+                <th>Professor</th>
+                <th>Idade</th>
+                <th>Curso</th>
+            </tr>
+        </thead>
+<tbody>
+    <tr>
+        <td>Paula Freitas</td>
+        <td>24</td>
+        <td>Computer Science</td>
+    </tr>
+    <tr>
+        <td>fulana</td>
+        <td>25</td>
+        <td>ADS</td>
+    </tr>
+    <tr>
+        <td>beltrana</td>
+        <td>27</td>
+        <td>engenharia de software</td>
+    </tr>
+    <tr>
+        <td>ciclana</td>
+        <td>28</td>
+        <td>Seguranca da informacao</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td>
+            Total de professores:
+        </td>
+        <td>4</td>
+    </tr>
+</tfoot>
+    </table> -->
+
+    <table>
+        <caption>Professores beacademy</caption>
+        <colgroup>
+            <col span="1" style="background:rgb(0, 128, 17);"> 
+            <col span="2" style="background: rgb(173, 102, 54);"> 
+            <col span="2" style="background: rgb(12, 94, 94);"> 
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="1"><br> be.academy</th>
+                <th colspan="2">professores front-end</th>
+                <th colspan="2">professores back-end</th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th>Entrada</th>
+                <th>Saida</th>
+                <th>Entrada</th>
+                <th>Saida</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Horário de Sexta-feira</th>
+                <td>08:00</td>
+                <td>15:00</td>
+                <td>9:00</td>
+                <td>15:00</td>
+            </tr>
+            <tr>
+                <th>Horário de Sábado</th>
+                <td>08:00</td>
+                <td>14:00</td>
+                <td>08:00</td>
+                <td>14:00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
